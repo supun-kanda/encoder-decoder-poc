@@ -3,7 +3,7 @@ Creating a LSTM model on Question-Answer Jokes dataset which is about Jokes of t
 
 The overall process of getting a text-dataset ready for the job can be point down as follows
  - Text Cleaning
- - Put <BOS> tag and <EOS> tag for decoder input
+ - Put \<BOS\> tag and \<EOS\> tag for decoder input
  - Make Vocabulary (VOCAB_SIZE)
  - Tokenize Bag of words to Bag of IDs
  - Padding (MAX_LEN)
